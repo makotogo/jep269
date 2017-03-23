@@ -36,11 +36,6 @@ public class App {
     return ret;
   }
 
-  // Uncomment for JDK 9 Stuff
-  // public List<String> theNewList() {
-  // return List.of("Lorem", "ipsum", "dolor", "sit", "amet");
-  // }
-
   public Set<String> theOldSet() {
     Set<String> ret = new HashSet<>();
 
@@ -54,11 +49,6 @@ public class App {
     return ret;
   }
 
-  // Uncomment for JDK 9 Stuff
-  // public Set<String> theNewSet() {
-  // return Set.of("Lorem", "ipsum", "dolor", "sit", "amet");
-  // }
-
   public Map<Integer, String> theOldMap() {
     Map<Integer, String> ret = new HashMap<>();
 
@@ -71,6 +61,16 @@ public class App {
     ret = Collections.unmodifiableMap(ret);
     return ret;
   }
+
+  // Uncomment for JDK 9 Stuff
+  // public List<String> theNewList() {
+  // return List.of("Lorem", "ipsum", "dolor", "sit", "amet");
+  // }
+
+  // Uncomment for JDK 9 Stuff
+  // public Set<String> theNewSet() {
+  // return Set.of("Lorem", "ipsum", "dolor", "sit", "amet");
+  // }
 
   // Uncomment for JDK 9 Stuff
   // public Map<Integer, String> theNewMap() {

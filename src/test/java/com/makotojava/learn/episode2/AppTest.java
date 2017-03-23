@@ -29,12 +29,6 @@ public class AppTest {
     performListAssertions(classUnderTest.theOldList(), "testTheOldList");
   }
 
-  // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewList() {
-  // performListAssertions(classUnderTest.theNewList(), "testTheNewList");
-  // }
-
   private void performListAssertions(List<String> theList, String testName) {
     assertNotNull(theList);
     assertEquals(5, theList.size());
@@ -50,12 +44,6 @@ public class AppTest {
   public void testTheOldSet() {
     performSetAssertions(classUnderTest.theOldSet(), "testTheOldSet");
   }
-
-  // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewSet() {
-  // performSetAssertions(classUnderTest.theNewSet(), "testTheNewSet");
-  // }
 
   private void performSetAssertions(Set<String> theSet, String testName) {
     assertNotNull(theSet);
@@ -73,12 +61,6 @@ public class AppTest {
     performMapAssertions(classUnderTest.theOldMap(), "testTheOldMap");
   }
 
-  // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewMap() {
-  // performMapAssertions(classUnderTest.theNewMap(), "testTheNewMap");
-  // }
-
   private void performMapAssertions(Map<Integer, String> theMap, String testName) {
     assertNotNull(theMap);
     assertEquals(5, theMap.size());
@@ -89,5 +71,23 @@ public class AppTest {
     assertTrue(theMap.get(5).equals("amet"));
     log.info(testName + ":" + Arrays.toString(theMap.entrySet().toArray()));
   }
+
+  // Uncomment for JDK 9 Stuff
+  // @Test
+  // public void testTheNewList() {
+  // performListAssertions(classUnderTest.theNewList(), "testTheNewList");
+  // }
+
+  // Uncomment for JDK 9 Stuff
+  // @Test
+  // public void testTheNewSet() {
+  // performSetAssertions(classUnderTest.theNewSet(), "testTheNewSet");
+  // }
+
+  // Uncomment for JDK 9 Stuff
+  // @Test
+  // public void testTheNewMap() {
+  // performMapAssertions(classUnderTest.theNewMap(), "testTheNewMap");
+  // }
 
 }
