@@ -73,21 +73,21 @@ public class AppTest {
   }
 
   // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewList() {
-  // performListAssertions(classUnderTest.theNewList(), "testTheNewList");
-  // }
+   @Test
+   public void testTheNewList() {
+   performListAssertions(classUnderTest.theNewList(), "testTheNewList");
+   }
 
   // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewSet() {
-  // performSetAssertions(classUnderTest.theNewSet(), "testTheNewSet");
-  // }
+   @Test
+   public void testTheNewSet() {
+   performSetAssertions(classUnderTest.theNewSet(), "testTheNewSet");
+   }
 
   // Uncomment for JDK 9 Stuff
-  // @Test
-  // public void testTheNewMap() {
-  // performMapAssertions(classUnderTest.theNewMap(), "testTheNewMap");
-  // }
+   @Test
+   public void testTheNewMap() {
+   performMapAssertions(classUnderTest.theNewMap(), "testTheNewMap");
+   }
 
 }
