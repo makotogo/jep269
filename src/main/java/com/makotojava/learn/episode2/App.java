@@ -1,7 +1,7 @@
 package com.makotojava.learn.episode2;
 
 // Uncomment for JDK 9 Stuff
- import static java.util.Map.entry;
+import static java.util.Map.entry;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -62,20 +62,20 @@ public class App {
     return ret;
   }
 
-   //Uncomment for JDK 9 Stuff
-   public List<String> theNewList() {
-   return List.of("Lorem", "ipsum", "dolor", "sit", "amet");
-   }
+  // Uncomment for JDK 9 Stuff
+  public List<String> theNewList() {
+    return List.of("Lorem", "ipsum", "dolor", "sit", "amet");
+  }
 
-   //Uncomment for JDK 9 Stuff
-   public Set<String> theNewSet() {
-   return Set.of("Lorem", "ipsum", "dolor", "sit", "amet");
-   }
+  // Uncomment for JDK 9 Stuff
+  public Set<String> theNewSet() {
+    return Set.of("Lorem", "ipsum", "dolor", "sit", "amet");
+  }
 
-   //Uncomment for JDK 9 Stuff
-   public Map<Integer, String> theNewMap() {
-   return Map.ofEntries(
-   entry(1, "Lorem"), entry(2, "ipsum"), entry(3, "dolor"), entry(4, "sit"), entry(5, "amet"));
-   }
+  // Uncomment for JDK 9 Stuff
+  public Map<Integer, String> theNewMap() {
+    return Map.ofEntries(
+        entry(1, "Lorem"), entry(2, "ipsum"), entry(3, "dolor"), entry(4, "sit"), entry(5, "amet"));
+  }
 
 }
